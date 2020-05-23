@@ -1,0 +1,8 @@
+1: Két tüzelés egyenként. Így mind a kettő TorpedoStore-t használatba kell venni és a tüzelésnek sikeresnek kell lennie.
+2: Összes tüzelése egyszerre. Így mind a kettő TorpedoStore-t használatba kell venni és a tüzelésnek sikeresnek kell lennie.
+3: Tüzelés úgy, hogy az első TorpedoStore üres. Ekkor a másodok TorpedoStore-t használatba kell venni és a tüzelésnek sikeresnek kell lennie.
+4: Tüzelés úgy, hogy mindkét TorpedoStore üres. Ekkor a tüzelésnek sikertelennek kell lennie.
+5: Tüzelés úgy, hogy az első TorpedoStore meghibásodik és nem tud tüzelni. Ekkor a tüzelésnek sikertelennek kell lennie.
+
+Kód alapján:
+6: Két tüzelés egyenként de az első TorpedoStore meghibásodik. Így mind a kettő TorpedoStore-t használatba kell venni de csak a második tüzelésnek kell sikeresnek lennie.
